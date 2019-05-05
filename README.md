@@ -19,10 +19,10 @@ A project forecast report using [PeriscopeData](https://www.periscopedata.com/) 
 
 The following periscope filters are setup for the dashboard:
 
-* *epic_issue_number* - the JIRA epic issue key (e.g. `PRJ-123`)
-* *epic_start_date* (`[daterange_start]`, periscope's `DateRange` filter) - the start date for the epic (e.g. `2018-11-03`)
-* *epic_end_date* (`[daterange_end]`, periscope's `DateRange` filter) - the end date for the epic (e.g. `2018-11-30`)
-* *epics_towards_velocity* - a list of epics (epic key and epic name for lables) to include in team velocity calculations. These can be populated based on the following SQL query in the periscope filter configuration:
+* `epic_issue_number` - the JIRA epic issue key (e.g. `PRJ-123`)
+* `epic_start_date` (`[daterange_start]`, periscope's `DateRange` filter) - the start date for the epic (e.g. `2018-11-03`)
+* `epic_end_date` (`[daterange_end]`, periscope's `DateRange` filter) - the end date for the epic (e.g. `2018-11-30`)
+* `epics_towards_velocity` - a list of epics (epic key and epic name for lables) to include in team velocity calculations. These can be populated based on the following SQL query in the periscope filter configuration:
 
 ```sql
 [team_epics_snippet]
