@@ -1,6 +1,6 @@
 # JIRA Project Forecast
 
-A project forecast report using [PeriscopeData](https://www.periscopedata.com/) based on the [fivetran](https://fivetran.com) JIRA schema.
+A project forecast report using [PeriscopeData](https://www.periscopedata.com/) based on the [Fivetran](https://fivetran.com) JIRA schema.
 
 ## Assumptions
 
