@@ -1,13 +1,13 @@
 # JIRA Project Forecast
 
-A project forecasting PeriscopeData report based on fivetran's JIRA schema
+A project forecast report using [PeriscopeData](https://www.periscopedata.com/) based on the [Fivetran](https://fivetran.com) JIRA schema.
 
 ## Assumptions
 
 * Your team uses JIRA.
 * Your team uses epics for projects/features.
 * Each epic has a clear start date and end date, where a relatively stable set of team members are collectively working on the feature; there may be tickets worked on preceding or following those dates, but they aren’t considered since they may not include the entire project team
-* The code assumes use of the [fivetran](https://fivetran.com) JIRA integration (using the v2 fivetran [schema](https://fivetran.com/docs/applications/jira#schemainformation)), Amazon Redshift (compatible SQL), and [PeriscopeData](https://www.periscopedata.com/) as the analytics tool. Some Periscope features are used such as snippets, filters, and views.
+* The code assumes use of the Fivetran JIRA integration (using the v2 fivetran [schema](https://fivetran.com/docs/applications/jira#schemainformation)), Amazon Redshift (compatible SQL), and [PeriscopeData](https://www.periscopedata.com/) as the analytics tool. Some Periscope features are used such as snippets, filters, and views.
 
 ## Notes
 
