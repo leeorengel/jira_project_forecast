@@ -1,6 +1,10 @@
-[project_forecast_velocity_snippet([epic_key],[daterange_end],[epic_keys])]
-SELECT 
-  w.val * n.val as expected_to_close
+[non_working_days_snippet]
+[team_epics_snippet]
+
+with
+  [project_forecast_snippet([daterange_end],[epics_towards_velocity])]
+SELECT
+    v.val * n.val as expected_to_close
 FROM
-  weighted_average_closed_per_week w, 
+  average_velocity v,
   num_weeks_remaining n

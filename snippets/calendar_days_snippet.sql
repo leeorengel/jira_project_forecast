@@ -1,5 +1,3 @@
--- create this as a SQL snippet in periscope and name it 'calendar_days_snippet'
-
 -- Create table of previous, current, and next years
 DROP TABLE IF EXISTS calendar_years;
 CREATE TEMP TABLE calendar_years (

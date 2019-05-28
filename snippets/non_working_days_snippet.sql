@@ -1,5 +1,3 @@
--- create this as a SQL snippet in periscope and name it 'non_working_days_snippet'
-
 DROP TABLE IF EXISTS non_working_days;
 
 CREATE TEMP TABLE non_working_days (

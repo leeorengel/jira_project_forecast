@@ -1,5 +1,9 @@
-[project_forecast_velocity_snippet([epic_key],[daterange_end],[epic_keys])]
-SELECT 
-  w.val as avg_throughput_per_week
+[non_working_days_snippet]
+[team_epics_snippet]
+
+WITH
+  [project_forecast_snippet([daterange_end],[epics_towards_velocity])]
+SELECT
+  v.val
 FROM
-  weighted_average_closed_per_week w
+  average_velocity v
